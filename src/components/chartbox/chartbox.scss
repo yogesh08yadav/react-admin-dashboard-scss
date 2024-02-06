@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+
+
+.chartbox{
+
+    display: flex;
+    height: 100%;
+
+    .boxinfo{
+         display: flex;
+         flex-direction: column;
+         flex: 3;
+         justify-content: space-between;
+        //  gap: 20px;
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .amount{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        
+    }
+
+    .chartinfo{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+        .chart{
+            width: 100%;
+            height: 100%;
+        }
+
+        .texts{
+            display: flex;
+            flex-direction: column;
+
+            .percent{
+                color: limegreen;
+                text-align: right;
+            }
+            .time{
+                text-align: right;
+                font-size: 10px;
+                font-weight: 200;
+                color: $soft-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.topbox{
+
+    .list{
+
+        .listItems{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0 20px 0;
+        
+            .user{
+                display: flex;
+                align-items: center;
+                font-size: 12px;
+                gap: 10px;
+                img{
+                    height: 55px;
+                    width: 55px;
+                    border-radius: 50%;
+                }
+
+                .detail{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .amount{
+                font-size: 13px;
+            }
+        }
+    }
+}
